@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    
+    <title>Sweet Delights by JLandJL</title>
+  </head>
+
+  <body>
+
+  	<div class="firstpage">
+  		<div class="nav">
+  			<a href="#">Sweet Delights</a>
+  			<a href="#">About us</a>
+  			<a href="#">Products</a>
+  			<a href="#">Gallery</a>
+  			<a href="#">Contact us</a>
+  		</div>
+
+  		<div class="head">
+  			<section>Sweet Delights</section>
+  			<a href="#">Explore</a>
+  			
+  		</div>
+  		
+  	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>

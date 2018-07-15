@@ -1,99 +1,228 @@
-*{
+body {
 	margin: 0;
 	padding: 0;
-}
-.a {
-	display: grid;
-	grid-template-columns: auto;
-	grid-template-rows: auto auto auto;
-	margin: auto;
-}
-
-.b{
-	
+	height: 100%;
 	width: 100%;
-	height: 758px;
-	background-image: url("back.jpg");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat; 
-	opacity: 0.9;
-	
 }
 
 
+
+.firstpage {
+	background-image: url("back.jpg");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-attachment: fixed;
+	opacity: .95;
+
+}
 .nav {
+
 	display: grid;
-	grid-gap: 2px;
-	width: 130px;
-	float: left;
-	list-style: none;
-	margin-top: 20px;
-	margin-right: 10px;
-	margin-left: 10px;
+	grid-template-columns: auto auto auto auto auto;
+	grid-template-rows: 30px;
+	grid-gap: 150px;
+	align-items: center;
 	text-align: center;
-	font-size: 20px;
+	padding: 20px;
+	height: 150px;
+	margin-right: 100px;
+	margin-left: 100px;
+	
+	}
+
+.navitems {
 	text-decoration: none;
 	color: Gold;
+	font-size: 20px;
 	font-family: Montserrat;
 	padding: 5px;
-	opacity: 1;
+	margin-top: 15px;
+
+}
+#home {
+	margin-top: 5px;
+	font-size: 30px;
+	text-decoration: underline;
+	color: Gold;
+	font-family: Montserrat;
+}
+
+.navitems:hover {
+	color: Crimson;
+}
+
+.head {
+	text-align: center;
+}
+
+section {
+	font-family: pacifico;
+	font-size: 150px;
+	color: Crimson;
+	text-align: center;
+	width: 100%;
+	line-height: 150px;
+}
+
+#explore {
+	line-height: 350px;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: Montserrat;
+	color: Crimson;
+	border: 1.5px solid Crimson;
+	padding: 10px;
+	padding-right: 50px;
+	padding-left:  50px;
+	font-weight: 1000;
+}
+
+#explore:hover {
+	color: Gold;
+	border: 1.5px solid Crimson;
+	background-color: Crimson;
+}
+
+.aboutus {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto;
+	grid-gap: 50px;
+	margin: 50px;
+	height: 100%;
+}
+
+.aboutus1 {
+	color: Crimson;
+	font-size: 20px;
+	font-family: Montserrat;
+	text-align: center;
+	border: 3px dashed Gold;
+	padding: 50px;
 	
 }
 
-
-.header {
-	width: 40%;
-	text-align: center;
-	padding-top: 15px;
-	font-family: Montserrat;
-	font-size: 35px;
-	color: Gold;
-	margin-left: 25px;
-	float: left;
-	text-decoration: bold;
-	opacity: 1;
-}
-
-.nav:hover{
-	color: white;
-	border: 1px dashed Gold;
+.slogan{
+	background-image: url("muffin1.jpg");
+	width: 100%;
+	height: 80vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	background-attachment: fixed;
 
 }
 
-h1{
+
+#lecheflan1 {
+ 	width: 100%;
+ 	height: 100%;
+ 	
+ }
+
+ #putoflan3 {
+ 	width: 100%;
+ 	height: 100%;
+ }
+
+ #putoflan4 {
+ 	width: 100%;
+height: 100%;
+ }
+
+ 
+.products {
+	width: 100%;
+	height: 100%;
 	display: grid;
-	margin-left: 120px;
-	width: 50%;
-	line-height: 200px;
-	margin-top: 100px;
-	color: Salmon;
-	font-family: pacifico;
-	font-size: 150px;
-	opacity:1;
+	grid-template-columns: 30% 30% 30%;
+	grid-template-rows: 50vh 50vh;
+	grid-gap: 35px;
+	margin-top: 50px;
+	justify-content: center;
 }
 
-.button {
-	float: left;
-    border: 2px solid Gold;
-    color: Gold;
-    font-family: Montserrat;
-    font-size: 18px;
-    padding: 10px;
-    margin-top: 550px;
-    text-decoration: none;
-    opacity: 1;
+.products1 {
+	color: Crimson;
+	font-size: 18px;
+	font-family: Montserrat;
+	text-align: center;
+	
+}
 
-    }
+.slogan1{
+	background-image: url("candy.jpg");
+	width: 100%;
+	height: 70vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	background-attachment: fixed;
 
-.button:hover {
+}
+
+.gallery1 {
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 40px;
+	height: 100%;
+	width: 100%;
+	margin: 40px 0px;
+	justify-content: center;
+}
+
+.pic {
+	width: 100%;
+	height: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.foot {
+	width: 100%;
+	height: 30vh;
+	background-color: darkslategrey;
+	
+}
+
+.foot ul {
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr) 50%;
+	grid-template-rows: 50%;
+
+}
+
+.foot ul li {
+	margin-top: 50%;
+	text-align: center;
+}
+
+.foot ul li a{
 	color: white;
-	border: 1.5px dashed white;
+	font-size: 30px;
+	
 }
 
-.c {
-	display: flex;
-	float: left;
+.foot ul div {
+	margin-top: 7%;
+	border-left: 1px solid white;
+
 }
 
+.foot ul div a {
+	display: block;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: montserrat;
+	color: white;
+	padding-left: 30%;
+	line-height: 20px;
 
+}
